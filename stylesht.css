@@ -1,0 +1,30 @@
+#rask {
+    background-color: #FFB81C;
+    padding: 20px
+}
+
+#schneider {
+    background-color: #CE1126;
+    padding: 20px
+}
+
+.pageheaders {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 2px #D3D3D3
+}
+
+.regular {
+    color: black;
+    text-align: left;
+    font-weight: bold
+}
+
+.main {
+    list-style-type: square;
+}
+
+table, th, td {
+    border: 1.5px dotted black;
+}
