@@ -8,6 +8,14 @@
     padding: 20px
 }
 
+.rask{
+    background-color: #FFB81C
+}
+
+.schneider {
+    background-color: #CE1126
+}
+
 .pageheaders {
     color: black;
     text-align: center;
@@ -21,7 +29,21 @@
     font-weight: bold
 }
 
-.main {
+ul {
     list-style-type: square;
+}
+
+table {
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1.5px dotted black;
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        text-transform: lowercase !important;
+    }
 }
 
